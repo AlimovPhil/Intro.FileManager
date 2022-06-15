@@ -388,8 +388,9 @@ namespace Lesson9
                             "cp %source_path% %targer_path% - копирование каталога",
                             "cf %source_file_path% %target_file_path% - копирование файла",
                             "rm %path% - удаление каталога",
-                            "rm %file_path% - удаление файла",
-                            "file %file_path% - вывод инормации о файле",
+                            "rf %file_path% - удаление файла",
+                            "file %file_path% - вывод информации о файле",
+                            "dir %dir_path% - вывод информации о файле",
                             "exit  - выход из приложения"};
             for (int i = 0; i < help.Length; i++)
             {
